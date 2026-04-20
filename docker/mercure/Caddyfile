@@ -1,0 +1,15 @@
+http://localhost:86 {
+    reverse_proxy localhost:80  # If Mercure is running on port 80 of the local machine/container
+    header {
+        Access-Control-Allow-Origin "http://localhost:4200"
+        Access-Control-Allow-Methods "GET, POST, OPTIONS"
+        Access-Control-Allow-Headers "Content-Type, Authorization"
+    }
+
+    route / {
+        @cors_options method OPTIONS
+        handle @cors_options {
+            respond "OK" 200
+        }
+    }
+}
