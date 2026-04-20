@@ -178,13 +178,3 @@ Contributions are welcome. Please open issues or PRs for fixes or improvements. 
 ## License
 
 This repository does not include a license file. If you want to open source it, consider adding an MIT `LICENSE`.
-
----
-
-If you'd like, I can:
-
-- Switch the README tone to be Laravel-first or Symfony-first and add specific commands and examples for one framework.
-- Add an `.env.example` file with the variables shown above.
-- Add a small `Makefile` with common convenience targets.
-
-Tell me which you'd like next and I'll add it.
