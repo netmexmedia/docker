@@ -177,4 +177,4 @@ Contributions are welcome. Please open issues or PRs for fixes or improvements. 
 
 ## License
 
-This repository does not include a license file. If you want to open source it, consider adding an MIT `LICENSE`.
+`MIT`.
